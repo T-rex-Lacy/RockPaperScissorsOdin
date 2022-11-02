@@ -1,4 +1,5 @@
-
+const PlayerInput = prompt("Rock,Paper or scissors?"); //prompt to get players choice
+const ComputerInput = GetComputerChoice();
 
 function GetComputerChoice(){
     let rps = ["Rock","Paper","Scissors"]; //Array of options
@@ -6,3 +7,4 @@ function GetComputerChoice(){
     let NewRandom = rps[random]; //store the random value in new variable
     return NewRandom;
 }
+
